@@ -10,7 +10,7 @@ import { Game } from '@bg-hoard/util-interface';
 })
 export class AppComponent {
   constructor(private http: HttpClient) {
-    console.log('Component constructed');
+    console.log('Component constructed newly');
   }
 
   formatRating = formatRating;
